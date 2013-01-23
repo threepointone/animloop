@@ -1,0 +1,17 @@
+{
+  "name": "animloop",
+  "version": "0.0.1",
+  "description": "animloop start/stop",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": "",
+  "keywords": [
+    "animloop",
+    "animation"
+  ],
+  "author": "Sunil Pai",
+  "license": "BSD",
+  "readmeFilename": "Readme.md"
+}

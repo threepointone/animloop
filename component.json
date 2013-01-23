@@ -1,0 +1,16 @@
+{
+  "name": "animloop",
+  "repo": "threepointone/animloop",
+  "description": "animloop start/stop",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "component/raf": "*",
+    "component/emitter": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "scripts": [
+    "index.js"
+  ]
+}
