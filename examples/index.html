@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+    <title>animloop</title>
+</head>
+<body>
+    <script src="/build/build.js"></script>
+    <script>
+        var loop = require('animloop'), i = 0;
+
+        loop.on('beforedraw', function(){
+            console.log(i++);
+        });
+
+        setInterval(function(){
+            loop.start();
+        },2000);
+
+        setTimeout(function(){
+            setInterval(function(){
+                loop.stop();
+            },2000);
+        },1000);
+
+    </script>
+
+</body>
+</html>
