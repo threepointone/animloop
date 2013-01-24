@@ -15,7 +15,8 @@
 var loop = require('animloop');
 
 loop.on('beforedraw', function(){
-    // your animation logic
+    // your animation logic, runs on every 'frame'
+
 });
 
 // start the loop
