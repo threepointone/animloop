@@ -5,7 +5,7 @@
   "version": "0.0.1",
   "keywords": [],
   "dependencies": {
-    "component/raf": "*",
+    "threepointone/raf": "*",
     "component/emitter": "*"
   },
   "development": {},
